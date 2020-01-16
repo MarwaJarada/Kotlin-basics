@@ -46,4 +46,23 @@ fun main(args: Array<String>) {
     println(myList)
     myList.add(1,"previous Index(1) moved")
     println(myList)
+
+
+    //Sets "To store unique values"
+
+    var mySet=HashSet<String>()
+    mySet.add("Tamer")
+    mySet.add("Mahmood")
+    mySet.add("Tamer")// set will ignore storing this
+    println(mySet.size)// = 2 because it store a unique variables
+
+
+    //Maps "Generally used in internet data"
+
+    var myHashMap=HashMap<String,String>() // Consist of key and value
+    myHashMap.set("name","Marwa")
+    myHashMap.set("university","IUG")
+    println(myHashMap["name"])// = Marwa
+
+
 }
