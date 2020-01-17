@@ -89,7 +89,7 @@ fun main(args: Array<String>) {
      *
      * */
 
-    //When:
+    //When: does same as switch case in Java
     val dayNum=2
     var dayString=""
     when(dayNum){
@@ -97,6 +97,7 @@ fun main(args: Array<String>) {
         2->dayString="Tuesday"
         3->dayString="Wednesday"
         4->dayString="Thursday"
+        else->dayString="Friday"
         // ...
     }
     println(dayString)
