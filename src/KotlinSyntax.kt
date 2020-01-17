@@ -71,7 +71,7 @@ fun main(args: Array<String>) {
     println(age>x)// 27>5 is true
     println(age==x)// 27=5 is false
 
-    //If statment: same as java syntax
+    //If statment: same as Java syntax
     /**
      * if(condition){
      *
@@ -103,7 +103,20 @@ fun main(args: Array<String>) {
     println(dayString)
 
 
+    //For loop
 
+    val myIntArray= intArrayOf(20,25,30,35)
+    for (number in myIntArray){
+        print(""+number+" ") // Every one loop , number variable will take a value of the array
+        // first loop : number=20
+    }
+
+    //While loop: same as Java syntax
+    /**
+     * while(condition){
+     *  code...
+     *  } 
+     */
 
 
 
