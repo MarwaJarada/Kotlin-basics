@@ -7,6 +7,9 @@
 fun main(args: Array<String>) {
     myFunction()
     sum(5,6)
+    // Create a person object
+    val person=Person("Marwa",20,"Android Developer")
+    println(person.name)
 }
 fun myFunction(){
     println("Function called")
