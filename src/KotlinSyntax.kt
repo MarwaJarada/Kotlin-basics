@@ -2,6 +2,7 @@
  *
  * @author Marwa N. Jarada
  * @date 15.1.2020
+ * @summary: This is a quick summery about kotlin syntax and main differences between Kotlin and Java syntax
  */
 fun main(args: Array<String>) {
 
@@ -63,6 +64,46 @@ fun main(args: Array<String>) {
     myHashMap.set("name","Marwa")
     myHashMap.set("university","IUG")
     println(myHashMap["name"])// = Marwa
+
+
+    //Special operator
+
+    println(age>x)// 27>5 is true
+    println(age==x)// 27=5 is false
+
+    //If statment: same as java syntax
+    /**
+     * if(condition){
+     *
+     *      if condition true this code will run
+     *      code..
+     *
+     * }else if(another condition){
+     *      code..
+     *
+     * }else{
+     *      any other cases
+     *
+     *      code..
+     * }
+     *
+     * */
+
+    //When:
+    val dayNum=2
+    var dayString=""
+    when(dayNum){
+        1->dayString="Monday" // when dayNum==1 , assign value "Monday" into dayString variable
+        2->dayString="Tuesday"
+        3->dayString="Wednesday"
+        4->dayString="Thursday"
+        // ...
+    }
+    println(dayString)
+
+
+
+
 
 
 }
